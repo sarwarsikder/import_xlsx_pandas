@@ -3,7 +3,7 @@ import xlwt
 import pandas.io.sql as pds_sql
 
 db_con = connect(
-    host="localhost",
+    host="192.168.1.51",
     user="root",
     password="password",
     database="pick_email"
